@@ -1,20 +1,22 @@
 <template>
   <footer class="bottom-footer">
     <div class="util__container">
-      <nuxt-link class="bottom-footer__link" to="/en/sitemap">Sitemap</nuxt-link>
+      <nuxt-link class="bottom-footer__link" to="/en/sitemap"
+        >Sitemap</nuxt-link
+      >
     </div>
   </footer>
 </template>
 
 <style lang="scss">
 .bottom-footer {
-  background: #e3f2ed;
+  background: url("../assets/images/grass.jpg") no-repeat center center fixed;
   padding: 40px 0 120px 0;
   text-align: center;
 }
 
 .bottom-footer__link {
-  color: #8ba19a;
+  color: #fff;
   text-decoration: none;
 }
 </style>
